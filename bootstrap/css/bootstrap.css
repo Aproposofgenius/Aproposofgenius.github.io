@@ -251,6 +251,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-thumbnail1 {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 5px transparent;
+  border-radius: 6px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline;
+  max-width: 110%;
+  height: 200px;
+}
+
 .img-circle {
   border-radius: 50%;
 }

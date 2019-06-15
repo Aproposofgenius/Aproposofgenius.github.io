@@ -1,0 +1,301 @@
+body {
+    font-family: 'Raleway',serif;
+    letter-spacing: 0.4px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #2c3e50;
+    font-weight: 400;
+  background-color: #fff9f9;
+}
+
+/** hyperlink **/
+a {
+  color: #2a7d9e;
+  text-decoration: none;
+    font-weight: 300;
+}
+a:hover,
+a:focus {
+  color: #1a7199;
+  text-decoration: underline;
+}
+
+*:focus{
+    outline: none !important;
+}
+
+.navbar-color{
+    background: rgba(0,0,0,0.7);
+}
+
+.navbar-nav{
+    margin-top: 6px;
+    float: right;
+}
+.navbar-nav li a{
+    color: #0a0404;
+    font-weight: 300;
+    text-transform: lowercase;
+    padding: 10px 20px;
+    font-size: 13pt;
+    border-radius: 2px;
+    margin-left: 3px;
+}
+
+.navbar-nav li a:focus,
+.navbar-nav li a:active,
+.navbar-nav li.active a,
+.navbar-nav li a:hover{
+    background: rgba(112, 95, 95, 0.2);
+    outline: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  color: inherit;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+
+  line-height: 1;
+  color: #b4bcc2;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 40px;
+  margin-bottom: 10.5px;
+}
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+}
+h1,
+.h1 {
+  font-size: 39px;
+}
+h2,
+.h2 {
+  font-size: 32px;
+}
+h3,
+.h3 {
+  font-size: 26px;
+}
+h4,
+.h4 {
+  font-size: 19px;
+}
+h5,
+.h5 {
+  font-size: 15px;
+}
+h6,
+.h6 {
+  font-size: 13px;
+}
+p {
+  margin: 0 0 10.5px;
+}
+
+.clear{
+    clear:both;
+}
+.lead {
+  margin-bottom: 21px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .lead {
+    font-size: 22.5px;
+  }
+}
+small,
+.small {
+  font-size: 86%;
+}
+mark,
+.mark {
+  background-color: #f39c12;
+  padding: .2em;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-muted {
+  color: #b4bcc2;
+}
+.text-primary {
+  color: #2c3e50;
+}
+a.text-primary:hover {
+  color: #1a242f;
+}
+.text-success {
+  color: #ffffff;
+}
+a.text-success:hover {
+  color: #e6e6e6;
+}
+.text-info {
+  color: #ffffff;
+}
+a.text-info:hover {
+  color: #e6e6e6;
+}
+.text-warning {
+  color: #ffffff;
+}
+a.text-warning:hover {
+  color: #e6e6e6;
+}
+.text-danger {
+  color: #ffffff;
+}
+a.text-danger:hover {
+  color: #e6e6e6;
+}
+.bg-primary {
+  color: #fff;
+  background-color:rgb(26, 188, 156);
+}
+a.bg-primary:hover {
+  background-color: #1a242f;
+}
+.bg-success {
+  background-color: rgb(46, 204, 113);
+}
+a.bg-success:hover {
+  background-color: #128f76;
+}
+.bg-info {
+  background-color: #3498db;
+}
+a.bg-info:hover {
+  background-color: #217dbb;
+}
+.bg-warning {
+  background-color: #f39c12;
+}
+a.bg-warning:hover {
+  background-color: #c87f0a;
+}
+.bg-danger {
+  background-color: #e74c3c;
+}
+a.bg-danger:hover {
+  background-color: #d62c1a;
+}
+.bg-ios-default{
+    background-color: #00E1F1;
+    color: #ffffff;
+}
+.page-header {
+  padding-bottom: 9.5px;
+  margin: 42px 0 21px;
+  border-bottom: 1px solid transparent;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10.5px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
