@@ -12,7 +12,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #2c3e50;
+  color: #ccdef1;
     font-weight: 300;
   background-color: #ffffff;
 }
@@ -3033,7 +3033,7 @@ a.list-group-item-danger.active:focus {
     -webkit-transition: padding 400ms ease-in-out;
     transition: padding 400ms ease-in-out;
 }
- 
+
 
 /** Feature Slider **/
 
@@ -3418,4 +3418,3 @@ label.eden-check input[type=checkbox]:checked + span,
 label.eden-radio input[type=radio]:checked + span {
     background: #18BC9C;
 }
-

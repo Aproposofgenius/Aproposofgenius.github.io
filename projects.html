@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  
+
   <link href="style.css" rel="stylesheet">
+  <link href="skins/all.css" rel="stylesheet">
+
   <!-- Bootstrap core CSS -->
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
@@ -20,17 +22,17 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
- 
+
 </head>
 
 <body >
- 
+
     <div class="navbar navbar-color navbar-fixed-top" id="topnav">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon icon-reorder"></span>
-    
+
                 </button>
                 <a class="navbar-brand" href="index.html"><p><b>Chloe</b></p></a>
             </div>
@@ -40,239 +42,156 @@
                     <li><a href="about_me.html">About Me</a></li>
                     <li class="active"><a href="projects.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
-    
+
                 </ul>
-    
+
             </div>
             <!--/.navbar-collapse -->
         </div>
     </div>
     <br><br><br>
-    <div class="container">
+    <div id=content>
+            <div class=side-projects id=sideprojects>
+                <div class=content-wrap>
+                    <div>
+                      <br>
+                      <h1 align="center">Projects</h1><ul><br><br>
+                        <p align="center">Seen below are some projects, both personal and course related that I have both enjoyed and learned a good amount from. </p><br>
+                    </div>
+                    <div class=projects-grid>
+                      <div class="section section-pro section-shotsnapp">
+                          <div class=text>
+                              <h3>Project One: Path Planning Robot </h3>
+                              <span class=scope>
+                                  Degree Project <em class=dash>&ndash;</em>
+                                  ROS, C++, Python, Unity 3D
+                              </span>
+                              <p>This project involved myself and three members of my team building a robot that applied path planning, object recognition, and task completion to enable the robot to traverse the mapped environment and complete pre-determined tasks when it gets to its destination.
+                              The link to the paper can be accessed with the button below</p>
+                                <br>
+                              <a class=button href="https://docs.google.com/document/d/e/2PACX-1vQpy2tnG-0lEdL90BupDiJtSrBsgQhpGTNIDYf4GMg7jsrvUSNc2nZYwWeTGbJC7g/pub" target=_blank>
+                                  <span>Visit project</span>
+                                  <svg fill=none height=20 stroke=currentColor stroke-linecap=square stroke-linejoin=arcs stroke-width=1 viewBox="0 0 24 24" width=20 xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M5 12h13M12 5l7 7-7 7"></path>
+                                  </svg>
+                              </a>
+                          </div>
+                          <div class=screen>
+                              <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRQVTobq4iqG5E8Ke4K230meUwq0jyGZxIMhiWKZd0qQaXcTKUIJWwhbg5177r00IAd6AqVFqKANqsM/embed?start=true&loop=true&delayms=6000" frameborder="0" width="500" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                          </div>
+                      </div>
 
-      <!-- Page Heading -->
-      <h1 class="my-4" align="center">Projects
-        <br><hr><small>Software and Hardware </small>
-      </h1>
-      <hr>
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="images/gith.png" width="350" height = "200" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>GITHUB</h3>
-               <p>Note: This is a link to my Github account, for solely software interested. There are several links leading to more specific repositories of my github account further down. But if you would like to self navigate, this link is for you: 
-              </p>
-          <a class="btn btn-primary" href="https://github.com/Aproposofgenius" target="=_blank">View Github</a>
-        </div>
-      </div><hr>
-      <br><br>
-      
-      <!-- Project One -->
-      <div class="row">
-          <div class="col-md-7">
-            <a href="#">
-              <img class="img-fluid rounded mb-3 mb-md-0" src="images/ardukit.png" height="300" width="auto" alt="">
-            </a>
+                        <div class="section section-pro section-shotsnapp">
+                            <div class=text>
+                                <h3>Project Two: Heart Rate Monitor </h3>
+                                <span class=scope>
+                                      Course Project <em class=dash>&ndash;</em>
+                                    Arduino, C++
+                                </span>
+                                <p>This Project was conducted using the Galvanic Skin Theory, which states that By applying a low constant voltage, the change in skin conductance (SC) can be measured non-invasively, to create a model of a heart rate monitor.
+                                  The project was conducted with the use of an ardukit, which included the arduino microcontroller as well as other componenets. The lab report is available in the link below, including clips of the code as well as a full explanation of the project </p>
+                                  <br>
+                                <a class=button href="https://drive.google.com/file/d/1PCkaqyURaj9bNxlBImJ5gTL7LYKqvWCW/view?usp=sharing" target=_blank>
+                                    <span>Visit project</span>
+                                    <svg fill=none height=20 stroke=currentColor stroke-linecap=square stroke-linejoin=arcs stroke-width=1 viewBox="0 0 24 24" width=20 xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 12h13M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class=screen>
+                                <img src="images/ardukit.png" alt=Ardukit/ width="500" height="350" border-radius=50%>
+                            </div>
+                        </div>
+
+                        <div class="section section-pro section-shotsnapp">
+                            <div class=text>
+                                <h3>Project Three: Heat Transfer Coefficient of models </h3>
+                                <span class=scope>
+                                    Course Project <em class=dash>&ndash;</em>
+                                    Solidworks, COMSOL
+                                </span>
+                                <p>This product was assigned for my Heat Transfer course. The problem given to us was: three “electronic chips” with initial heat needed to be cooled down given an initial material, and temperature. Using the COMSOL program, we were to calculate the temperature to find the heat convection coefficient for the flat plate, pipe bundle, and straight fins. We can then compare and contrast the results between the pipe bundle, the fins and the flat plate and see which plate would be most efficient. </p>
+                                  <br>
+                                <a class=button href="pdf/Heat Transfer Project.pdf" target=_blank>
+                                    <span>Visit project</span>
+                                    <svg fill=none height=20 stroke=currentColor stroke-linecap=square stroke-linejoin=arcs stroke-width=1 viewBox="0 0 24 24" width=20 xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 12h13M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class=screen>
+                              <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2GB42xTrGirvDY5vYnPAHhpno7Vnohc85aLT4GitL58_noHWxDTNSHlZv8exXe3JTfw1MDYvvyOpg/embed?start=true&loop=false&delayms=6000" frameborder="0" width="500" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="section section-pro section-shotsnapp">
+                            <div class=text>
+                                <h3>Project Four: PLC Programming </h3>
+                                <span class=scope>
+                                    Course Project <em class=dash>&ndash;</em>
+                                    Structured text, Instruction list
+                                </span>
+                                <p>This is a link to a github repository where I store PLC programming code that I have written. A Programmable Logic Controller, or PLC, is a small computer with a built-in operating system. This OS is highly specialized and optimized to handle incoming events in real time.
+                                  The PLC has input lines, to which sensors are connected to notify of events (such as temperature above/below a certain level), and output lines, to which actuators are connected to signal reactions to the incoming events (such as start an engine). </p>
+                                  <br>
+                                <a class=button href="https://github.com/Aproposofgenius/PLC_programming" target=_blank>
+                                    <span>Visit project</span>
+                                    <svg fill=none height=20 stroke=currentColor stroke-linecap=square stroke-linejoin=arcs stroke-width=1 viewBox="0 0 24 24" width=20 xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 12h13M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class=screen>
+                                <img src="https://i.ytimg.com/vi/Qf32qtHfowQ/maxresdefault.jpg" width="500" height="350"/>
+                            </div>
+                        </div>
+
+                        <div class="section section-pro section-shotsnapp">
+                            <div class=text>
+                                <h3>Project Five: Autonomous Robot </h3>
+                                <span class=scope>
+                                    Course Project <em class=dash>&ndash;</em>
+                                  Robot-C (Variation of C Programming Language), VEX Robotics
+                                </span>
+                                <p>'Clamps' was a freshman project. We were required to build a robot to complete a task of our
+                                  choice. My teammate and I decided to work on a 'pick-up' robot. Its original purpose was to pick
+                                  up toys around a toddler's playroom, but we realized its purpose could further be expanded as a
+                                  garbage collecting robot.</p>
+                                  <br>
+                                <a class=button href="https://drive.google.com/open?id=10_xxTdef3caOPMFxyUFlXS2dEsF-LyHx" target=_blank>
+                                    <span>Visit project</span>
+                                    <svg fill=none height=20 stroke=currentColor stroke-linecap=square stroke-linejoin=arcs stroke-width=1 viewBox="0 0 24 24" width=20 xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 12h13M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class=screen>
+                                <img src="images/clamps.JPG"  height="350" alt=clamps/>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
           </div>
-          <div class="col-md-5">
-            <h3>Project One: Heart Rate Monitor</h3>
-            <h6>Course Project</h6>
-            <h6>Arduino, C++</h6>
-            <p>This Project was conducted using the Galvanic Skin Theory, which states that By applying a low constant voltage, the change in skin conductance (SC) can be measured non-invasively, to create a model of a heart rate monitor. 
-              The project was conducted with the use of an ardukit, which included the arduino microcontroller as well as other componenets. The lab report is available in the link below, including clips of the code as well as a full explanation of the project
-                </p>
-            <a class="btn btn-primary" href="https://drive.google.com/file/d/1PCkaqyURaj9bNxlBImJ5gTL7LYKqvWCW/view?usp=sharing">View Project Report Pdf</a>
-          </div>
         </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project Two -->
-      <div class="row">
-          <div class="col-md-7">
-            <a href="#">
-              <img class="img-fluid rounded mb-3 mb-md-0" src="images/clamps.JPG" width="250" height = "400" alt="">
-            </a>
-          </div>
-          <div class="col-md-5">
-            <h3>Project Two: Autonomous Robot</h3>
-            <h6> Course Project</h6>
-            <h6> Robot-C (Variation of C Programming Language), VEX Robotics</h6>
-            <p>'Clamps' was a freshman project. We were required to build a robot to complete a task of our
-              choice. My teammate and I decided to work on a 'pick-up' robot. Its original purpose was to pick
-              up toys around a toddler's playroom, but we realized its purpose could further be expanded as a
-              garbage collecting robot. The image shown is a working prototype of the robot. We intended to 3D
-              print a box matching the dimensions of the one above using the Solidworks software, but
-              
-              decided to keep the more conservative option of a cardboard box.</p>
-            <a class="btn btn-primary" href="https://drive.google.com/open?id=10_xxTdef3caOPMFxyUFlXS2dEsF-LyHx" target="_blank">View Project Pdf</a>
-          </div>
+          <script>
+        $(document).ready(function() {
+            $(".project-head").addClass("project-head-animate"),
+            $(".project-content").addClass("project-content-animate")
+        });
+        var _gaq = _gaq || [];
+        _gaq.push(["_setAccount", "UA-1987381-3"]),
+        _gaq.push(["_trackPageview"]),
+        function() {
+            var t = document.createElement("script");
+            t.type = "text/javascript",
+            t.async = !0,
+            t.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+            var e = document.getElementsByTagName("script")[0];
+            e.parentNode.insertBefore(t, e)
+        }();
+    </script>
         </div>
-      
-      <!-- /.row -->
-         <!-- Project 3 -->
-      <hr>
-      <div class="row">
-        <div class="col-md-7">
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2GB42xTrGirvDY5vYnPAHhpno7Vnohc85aLT4GitL58_noHWxDTNSHlZv8exXe3JTfw1MDYvvyOpg/embed?start=true&loop=false&delayms=3000" frameborder="0" width="500" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Three: Heat Transfer Coefficient of models</h3>
-          <h6> Course Project</h6>
-          <h6> Solidworks, COMSOL</h6>
-          <p>This product was assigned for my Heat Transfer course. The problem given to us was: three “electronic chips” with initial heat needed to be cooled down given an initial material, and temperature. In addition, we were to create an ambient temperature using a block of air, with an initial velocity. Using the COMSOL program, we were to calculate the temperature to find the heat convection coefficient for the flat plate, pipe bundle, and straight fins. We can then compare and contrast the results between the pipe bundle, the fins and the flat plate and see which plate would be most efficient, and compare our results with our peers to see their results with varying free-flow velocity, Q, or initial temperature drastically change the results of the cooling of said chips. By observing the various values for the conditions put on each model we can see how to improve on the system in order to get a desired outcome. </p>
-          <a class="btn btn-primary" href="pdf/Heat Transfer Project.pdf" target="_blank">View Project Pdf</a>
-        </div>
-      </div>
-      
-      
-      <hr>
-
-      <!-- Project 4 -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="images/controls.PNG" width="500" height = "350" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Four: Control Systems</h3>
-          <h6> Lab Reports</h6>
-          <h6> Matlab, Simulink</h6>
-          <p>This is a compilation of some relevent labs I conducted with my partner, Alyssa Mitchell. A control system is a system, which provides the desired response by controlling the output. This course provided a foundation in continuous-time linear control system
-            analysis and design. Topics included modeling dynamic systems, system transfer functions, transient
-            response and frequency response, stability, control system design methods in both time and frequency
-            domains. 
-            <br>➢ The need to study control system students needs a vast understanding of 2nd order ordinary
-            differential equations and Laplace transform.
-            <br>➢ Time domain transfer function and frequency domain transfer function are mainly used to
-            solve open loop and closed loop systems.
-            <br>➢ The understanding of Proportional (P), Integral (I) and Derivative (D) concepts and
-            applications are used to understand mathematical and engineering process.</p>
-          <a class="btn btn-primary" href="pdf/lab6.pdf" target="_blank">View Project Pdf</a>
-        </div>
-      </div>
-    <hr>
-      <!-- Project 5 -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg" width="500" height = "300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Five: This Website</h3>
-          <h6> Personal Project</h6>
-          <h6> HTML, CSS, Javascript, Bootstrap</h6>
-          <p>This website was created as a means to not only practice my web development skills, but also as a means to digitize my portfolio, which prior to this was basically a bunch of printed out documents and pictures of my projects. Making an online portfolio let me put everything on one memorable platform. I deployed the site through github pages as it was a free alternative to sites like Wix and it would also let me test out my git version control skills. Below is a link to the repository</p>
-          <a class="btn btn-primary" href="https://github.com/Aproposofgenius/ChloeE_portfolio.github.io" target="_blank">View Github repo</a>
-        </div>
-      </div><br>
-      <hr>
-      <!-- Project 6 -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="https://miguelpiedrafita.com/content/images/2018/11/maxresdefault.jpg" width="500" height = "300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Six: Github Gist</h3>
-          <h6> Personal Project</h6>
-          <h6>Python, Pandas, Scikit, Numpy, Tensorflow, Matplotlib</h6>
-          <p>I recently took some machine and deep learning courses on Cognitive ai, a site which basiclly has IBM standard classes. My Github gist is populated by most of the notes and jupyter notebooks from the courses I took. This might not really be considered a project, but is a good resource for anyone viewing my sight for educational reasons and happens to be curious about the materials/resources I had on that journey</p>
-          <a class="btn btn-primary" href="https://gist.github.com/Aproposofgenius" target="_blank">View Github gist</a>
-        </div>
-      </div>
-
-      <br>
-      <hr>
-      <!-- Project 7 -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="https://previews.123rf.com/images/darkovujic/darkovujic1501/darkovujic150100040/36157921-flat-design-modern-concept-of-process-web-page-coding-and-programming-on-laptop-with-workflow-object.jpg" width="500" height = "300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Seven: Coding Challenges</h3>
-          <h6> Personal Project</h6>
-          <h6> C++, Python</h6>
-          <p>This is a link to a github repository where I store Object Oriented Programming challenges I've completed, or important code snippets that highlight things I usually come across in coding challenges, for instance, a function for power sets. The questions solved on this repository come from a variety of sites, for instance HackerRank, Coderbyte, Project Euler, HackThisSite, Notations will be put beside each script to indicate what website the snippet came from</p>
-          <a class="btn btn-primary" href="https://github.com/Aproposofgenius/CodingChallenges" target="_blank">View Github repo</a>
-        </div>
-      </div>
-
-
-      <br>
-      <hr>
-      <!-- Project 8 -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://www.berylliumgroup.com/wp-content/uploads/2016/08/Beryllium_FEA_truss.jpg" width="500" height = "300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Eight: Finite Element Analysis</h3>
-          <h6> Course Project</h6>
-          <h6>Matlab</h6>
-          <p>This is a link to a github repository where I store Matlab code for my finite element analysis course. It consists of several cases of axial strain due to loading, nodal analysis of a rod due to torsion, heat transfer and the like. All files here are matlab scripts</p>
-          <a class="btn btn-primary" href="https://github.com/Aproposofgenius/FiniteElementAnalysis" target="_blank">View Github repo</a>
-        </div>
-      </div>
-
-
-      <br>
-      <hr>
-      <!-- Project 9 -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="https://i.ytimg.com/vi/Qf32qtHfowQ/maxresdefault.jpg" width="500" height = "300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Nine: PLC Programming</h3>
-          <h6> Course Project</h6>
-          <h6>Structured text, Instruction list</h6>
-          <p>This is a link to a github repository where I store PLC programming code that I have written in class. A Programmable Logic Controller, or PLC, is more or less a small computer with a built-in operating system (OS). This OS is highly specialized and optimized to handle incoming events in real time, i.e., at the time of their occurrence.
-
-            The PLC has input lines, to which sensors are connected to notify of events (such as temperature above/below a certain level, liquid level reached, etc.), and output lines, to which actuators are connected to affect or signal reactions to the incoming events (such as start an engine, open/close a valve, and so on). This particular course only covered Structured Text and Instruction Ladder, The next step after this would be Mechatronics I, which covers ladder diagrams</p>
-          <a class="btn btn-primary" href="https://github.com/Aproposofgenius/PLC_programming" target="_blank">View Github repo</a>
-        </div>
-        </div>
-        <br><hr>
-         <!-- Project 10 -->
-      <div class="row">
-        <div class="col-md-7">
-          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtt4KUz0PqOkkKLmqP-tgiNJd1xySUMvIb7j6_eYQ1KXF848TpxblhDMU/pubhtml?widget=true&amp;headers=false" frameborder="0" width="500" height="350" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Ten: Biostatistics Excel Project</h3>
-          <h6>Freelance project</h6>
-          <h6>Excel</h6>
-          <p>For one of my Freelance projects, I was asked to carry out statistical analysis on a data set using in-built excel functions like: POISSON.DIST, BINOM.DIST, SUM, VAR.S, CHIINV, AVERAGE, NORM.INV, NORMDIST. The question was structured like this: An experiment involved 3-day-old infants in the newborn nursery. Systolic and diastolic blood pressure were measured in 99 infants. Data are presented in data set INFANTBP.DAT.xls (columns B and C for systolic and diastolic blood pressure, respectively). Compute appropriate descriptive statistics for systolic and diastolic blood pressure of the infants.</p>
-          <a class="btn btn-primary" href="https://drive.google.com/file/d/0B6K2YdtAbA0sSlF5YzItMkZXaTA/view?usp=sharing" target="_blank">View Spreadsheet</a>
-        </div>
-        
-      </div>
-    <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
-    <br><br>
- <!-- Footer -->
- <footer class="py-5 bg-dark">
-   <div class="container">
-     <p class="m-0 text-center text-white">Copyright &copy; Chloe Eimunjeze 2019</p>
-   </div>
-   <!-- /.container -->
- </footer>
 
  </body>
 </html>
